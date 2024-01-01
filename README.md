@@ -54,7 +54,7 @@ This Project contains the following Blueprints.
 
 
 
-### Configure your System to use a Local Mirror
+### Configure RHEL to use a Local Mirror
 
 If your system is not registered with an entitlement server 
 like Red Hat Subscription Management but you have access to 
