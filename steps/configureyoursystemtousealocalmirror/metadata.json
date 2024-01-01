@@ -12,11 +12,11 @@
         }, 
         {
             "order": 50, 
-            "stepKey": "setuplocalrepository"
+            "stepKey": "setuprhellocalrepository"
         }, 
         {
             "order": 100, 
-            "stepKey": "cleandnfcache"
+            "stepKey": "cleanrhelsystemspackagedatabase"
         }
     ], 
     "name": "Configure your System to use a Local Mirror", 

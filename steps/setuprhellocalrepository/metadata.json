@@ -4,7 +4,7 @@
     "deployPath": "/etc/yum.repos.d/", 
     "enabled": true, 
     "externalUuid4": "784b9b5b-e388-4621-ad1a-c98c9927f4e7", 
-    "key": "setuplocalrepository", 
+    "key": "setuprhellocalrepository", 
     "makoFileNames": [
         "local.repo"
     ], 
@@ -15,7 +15,7 @@
             "parameterType": "c.s.s.b.phv.Text"
         }
     ], 
-    "name": "Set Up Local Repository", 
+    "name": "Set Up RHEL Local Repository", 
     "osCredKey": "linuxuserroot", 
     "serverKey": "linuxnode", 
     "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
