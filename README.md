@@ -70,8 +70,8 @@ mirror for updates and installations.
 | Name | Type | Script Reference | Comment |
 | ---- | ---- | ---------------- | ------- |
 | RHEL baseos Repo URL | Text | `rhelbaseosrepourl` | RPM Server BaseOS Repository URL for packages mirror.<br><br>For example "http://rpm_server_for_rhel8/rpm_mirror/rhel-8-for-x86_64-baseos-rpms/" |
-| New OS Linux Node | Linux/Unix Node | `newoslinuxnode` | The New OS to be built. |
-| New OS Linux User: root | Linux/Unix Credential | `newoslinuxuserroot` | root user on the New OS to be built. |
+| Linux Node | Linux/Unix Node | `linuxnode` | The New OS to be built. |
+| Linux User: root | Linux/Unix Credential | `linuxuserroot` | root user on the New OS to be built. |
 
 
 
@@ -80,7 +80,7 @@ mirror for updates and installations.
 
 | Name | Type | Comment |
 | ---- | ---- | ------- |
-| local.repo | Version Controlled Files | The local repo configuration.<br>name: A descriptive name for your local repository.<br>baseurl: The URL where the local repository resides.<br>enabled=1: Enables the repository.<br>gpgcheck=0: Disables GPG signature checking. If your local repo's packages are signed, set this to 1 and configure the gpgkey URL. |
+| RHEL local.repo | Version Controlled Files | The local repo configuration.<br>name: A descriptive name for your local repository.<br>baseurl: The URL where the local repository resides.<br>enabled=1: Enables the repository.<br>gpgcheck=0: Disables GPG signature checking. If your local repo's packages are signed, set this to 1 and configure the gpgkey URL. |
 
 
 
